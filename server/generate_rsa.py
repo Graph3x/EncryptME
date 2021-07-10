@@ -16,3 +16,7 @@ def generate_rsa_keys():
 		f.write(keys['pub'])
 
 	return {'priv':private_key, 'pub':public_key}
+
+
+if __name__ == '__main__':
+	generate_rsa_keys()
